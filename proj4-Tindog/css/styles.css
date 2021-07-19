@@ -8,6 +8,19 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
 .container-fluid {
   padding: 3% 15%;
 }
@@ -46,4 +59,53 @@ h1 {
   width: 60%;
   margin-left: 75px;
   transform: rotate(25deg);
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffffff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
 }
